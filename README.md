@@ -1,5 +1,8 @@
-# Technical interview
-Here you can find some code I wrote to prepare traditional technical interviews. The code try to covers generic algorithms, concepts and data structures. Feel free to contribute if you see something wrong or bad optimised. 
+# Technical Interviews Preparation
+Here you can find some code to prepare traditional technical interviews. The code try to covers generic algorithms, concepts and data structures. 
+
+## Contribute
+The code follows the [Google C++ Style Guide](https://google-styleguide.googlecode.com/svn/trunk/cppguide.html). Of course, feel free to contribute if you see something wrong or bad optimised. 
 
 ## Resources
 * [Interview](https://github.com/andreis/interview) - Curated Github repository with everything you need to kick ass on your coding interview.
