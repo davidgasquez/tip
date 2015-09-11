@@ -4,6 +4,41 @@ Here you can find some C++ code I wrote to prepare traditional technical intervi
 ## Contribute
 The code follows the [Google C++ Style Guide](https://google-styleguide.googlecode.com/svn/trunk/cppguide.html). Of course, feel free to contribute if you see something wrong or bad optimised. 
 
+## Goals
+This list aims to be the basic content you must know for your technical interviews.
+
+- **Algorithms**
+  - Complexity
+  - Recursion
+  - Searching
+  - NP-Completes
+    - TSP
+    - Knapsack Problem
+  - Sorting
+    - Quicksort
+    - Mergesort
+    - Timsort
+    - Heapsort
+    - Bubble Sort
+    - Insertion Sort
+    - Selection Sort
+    - Shell Sort
+    - Bucket Sort
+    - Radix Sort
+  - Path-finding
+- **Data Structures**
+  - Array
+  - Set
+  - Linked List
+  - Stack
+  - Queue
+  - Map
+  - Hash Table
+  - Trees
+  - Graphs
+- **Operating Systems**
+- **Maths**
+
 ## Resources
 * [Interview](https://github.com/andreis/interview) - Curated Github repository with everything you need to kick ass on your coding interview.
 * [Algorithms and Data Structures](http://cooervo.github.io/Algorithms-DataStructures-BigONotation/index.html) - Web to help you understand better: algorithms, data structures and big O notation.
