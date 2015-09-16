@@ -30,7 +30,7 @@ int main(int argc, char const *argv[]) {
   std::random_shuffle(data.begin(), data.end());
 
   printf("Unsorted Array: ");
-  for (auto element : data) {
+  for (const auto &element : data) {
     printf("%d ", element);
   }
   printf("\n");
@@ -39,7 +39,7 @@ int main(int argc, char const *argv[]) {
   insertion_sort(&data);
 
   printf("Sorted Array: ");
-  for (auto element : data) {
+  for (const auto &element : data) {
     printf("%d ", element);
   }
   printf("\n");
