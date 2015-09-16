@@ -5,12 +5,12 @@
 #include <vector>
 #include <algorithm>
 
-template<class TYPE>
-std::vector<TYPE> insertion_sort(std::vector<TYPE> data) {
+template<typename T>
+std::vector<T> insertion_sort(std::vector<T> data) {
   unsigned data_size = data.size();
 
   for (unsigned i = 1; i < data_size; ++i) {
-    TYPE value = data[i];
+    T value = data[i];
     unsigned hole = i;
 
     // Put the value in the sorted sub-array. While it founds a number grater
@@ -30,13 +30,13 @@ int main(int argc, char const *argv[]) {
   std::vector<int> data = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 
   // Shuffle vector
-  auto engine = std::default_random_engine {};
-  std::shuffle(std::begin(data), std::end(data), engine);
+  std::random_shuffle(data.begin(), data.end());
 
   printf("Unsorted Array: ");
   for (auto element : data) {
     printf("%d ", element);
-  } printf("\n");
+  }
+  printf("\n");
 
   // Sort
   std::vector<int> sorted = insertion_sort(data);
@@ -44,7 +44,8 @@ int main(int argc, char const *argv[]) {
   printf("Sorted Array: ");
   for (auto element : sorted) {
     printf("%d ", element);
-  } printf("\n");
+  }
+  printf("\n");
 
   return 0;
 }
