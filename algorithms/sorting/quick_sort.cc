@@ -15,10 +15,10 @@ void swap(std::vector<T> *data, int a, int b) {
 template<typename T>
 int partition(std::vector<T> *data, int start, int end) {
   // Classic pivot
-  int pivot = data->at(end);
+  int pivot_value = data->at(end);
   int partition_index = start;
   for (int i = start; i < end; ++i) {
-    if (data->at(i) < pivot) {
+    if (data->at(i) < pivot_value) {
       swap(data, i, partition_index);
       partition_index++;
     }
