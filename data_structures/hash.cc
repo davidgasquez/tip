@@ -35,7 +35,7 @@ int main(int argc, char const *argv[]) {
   }
 
   // Modify a pair
-  count_map.at(key_position->first) = 101;
+  count_map[key_position->first] = 101;
   printf("New value: %i -> %i\n", key_position->first, key_position->second);
 
   // Remove pair
