@@ -1,4 +1,6 @@
 # Technical Interviews Preparation
+[![Build Status](https://travis-ci.org/davidgasquez/tip.svg)](https://travis-ci.org/davidgasquez/tip)
+
 Here you can find some Python code I wrote to prepare traditional technical interviews. The code try to covers generic algorithms, concepts and data structures.
 
 ## Contribute
