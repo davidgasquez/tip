@@ -3,11 +3,16 @@ sudo: false
 language: python
 
 python:
-  - "3.3"
-  - "3.4"
-  - "3.5"
+  - 3.3
+  - 3.4
+  - 3.5
 
-install: 
-  - "pip3 install pytest"
+install:
+  - pip3 install pytest
+  - pip install codecov
 
-script: python3 -m pytest
+script:
+  - python3 -m pytest
+
+after_success:
+  - codecov
