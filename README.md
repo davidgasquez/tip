@@ -1,4 +1,6 @@
 # Technical Interviews Preparation
+
+[![Join the chat at https://gitter.im/davidgasquez/tip](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/davidgasquez/tip?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/davidgasquez/tip.svg)](https://travis-ci.org/davidgasquez/tip)
 
 Here you can find some Python code I wrote to prepare traditional technical interviews. The code try to covers generic algorithms, concepts and data structures.
