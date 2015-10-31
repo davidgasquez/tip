@@ -3,16 +3,21 @@ sudo: false
 language: python
 
 python:
+  - 2.6
+  - 2.7
+  - 3.2
   - 3.3
   - 3.4
   - 3.5
 
 install:
   - pip3 install pytest
-  - pip install codecov
+  - pip3 install flake8
+  - pip3 install pep8
+  - pip3 install codecov
 
 script:
-  - python3 -m pytest
+  - tox
 
 after_success:
   - codecov
