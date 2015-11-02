@@ -27,9 +27,6 @@ install:
   - pip install tox
   - pip install .
 
-before_install:
-    - apt-get install -y libyaml-dev python-dev libffi-dev python-pip
-
 script:
   - tox -e $TOX_ENV
 
