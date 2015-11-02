@@ -1,17 +1,10 @@
 import io
 from setuptools import setup
 
-
-def readme():
-    with io.open('README.md', 'r', encoding='utf-8') as f:
-        readme = f.read()
-    return readme
-
 setup(
     name='tip',
     version='0.1',
     description='Code to prepare traditional technical interviews.',
-    long_description=readme(),
     url='https://github.com/davidgasquez/tip',
     author='David Gasquez',
     author_email='davidgasquez@gmail.com',
