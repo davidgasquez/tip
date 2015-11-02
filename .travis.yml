@@ -10,6 +10,15 @@ python:
   - 3.4
   - 3.5
 
+env:
+    - TOX_ENV=py26
+    - TOX_ENV=py27
+    - TOX_ENV=py34
+    - TOX_ENV=py32
+    - TOX_ENV=py33
+    - TOX_ENV=py34
+    - TOX_ENV=flake8
+
 install:
   - pip install pytest
   - pip install flake8
@@ -18,8 +27,12 @@ install:
   - pip install tox
   - pip install .
 
+before_install:
+    - sudo apt-get update
+    - sudo apt-get install -y libyaml-dev python-dev libffi-dev python-pip
+
 script:
-  - tox
+  - tox -e $TOX_ENV
 
 after_success:
   - codecov
