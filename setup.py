@@ -1,5 +1,4 @@
-import io
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='tip',
@@ -9,7 +8,8 @@ setup(
     author='David Gasquez',
     author_email='davidgasquez@gmail.com',
     license='Unlicense',
-    packages=['tip'],
+    packages=find_packages(),
+    zip_safe=True,
     classifiers=[
         'Development Status :: 1 - Planning',
         'Programming Language :: Python :: 3',
