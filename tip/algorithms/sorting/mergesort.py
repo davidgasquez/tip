@@ -1,4 +1,5 @@
-""" Merge Sort
+"""Merge Sort Algorithm.
+
 The Merge Sort is a recursive sort of order n*log(n).
 
 It is notable for having a worst case and average complexity of O(n*log(n)),
