@@ -3,10 +3,10 @@
 [![Join the chat at https://gitter.im/davidgasquez/tip](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/davidgasquez/tip?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/davidgasquez/tip.svg)](https://travis-ci.org/davidgasquez/tip)
 
-Here you can find some Python code I wrote to prepare traditional technical interviews. The code try to covers generic algorithms, concepts and data structures.
+Here you can find some Python code I wrote to prepare traditional technical interviews. The code try to covers generic algorithms, concepts and data structures in a [Pythonic](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html) way.
 
 ## Contribute
-The code follows the [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html). Of course, feel free to contribute if you see something wrong or bad optimized.
+The code follows the [Pylint](http://www.pylint.org/) coding standards. Feel free to contribute, open issues or add enhancements via pull requests.
 
 ## Goals
 This list aims to be the basic content you must know for your technical interviews.
