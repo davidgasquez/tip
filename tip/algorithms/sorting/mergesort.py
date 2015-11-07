@@ -11,4 +11,4 @@ def mergesort(list):
         return list
 
     m = len(list) / 2
-    return merge(mergesort(list[:m]), mergesort(list[m:]))
+    return merge(mergesort(list[:int(m)]), mergesort(list[int(m):]))
