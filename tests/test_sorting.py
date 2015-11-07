@@ -1,7 +1,7 @@
 from tip.algorithms.sorting.mergesort import mergesort
 
 
-class TestMergesort():
+class TestMergesort:
     """Test class for Merge Sort algorithm."""
 
     def test_mergesort_basic(self):
