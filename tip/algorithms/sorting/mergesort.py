@@ -3,7 +3,7 @@ def merge(a, b):
         return a + b
 
     v = (a[0] < b[0] and a or b).pop(0)
-    return [v] + merge(a, b)
+    return [v]+ merge(a, b)
 
 
 def mergesort(list):
