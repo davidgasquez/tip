@@ -19,17 +19,35 @@ of O(n log n).
 """
 
 
-def partition(unsorted_list):
-    """Partition array using a pivot value."""
-    return unsorted_list
-
-
-def quick_sort(unsorted_list):
+def quick_sort(array):
     """Sorts the input list using the quick sort algorithm.
 
     >>> unsorted_list = [4, 5, 1, 6, 3]
     >>> quick_sort(unsorted_list)
     [1, 3, 4, 5, 6]
     """
-    unsorted_list = sorted(unsorted_list)
-    return unsorted_list
+
+    # We sort it if there is something to sort, else return the same array
+    if len(array) < 2:
+        return array
+
+    lesser_elements = []
+    equal_elements = []
+    greater_elements = []
+
+    pivot = array[0]
+
+    # Classify each element(lesser, greateror equal) in the arrays
+    for element in array:
+        if element < pivot:
+            lesser_elements.append(element)
+        if element > pivot:
+            greater_elements.append(element)
+        else:
+            equal_elements.append(element)
+
+    # Recursively sorts partitions
+    left_partition = quick_sort(lesser_elements)
+    right_partition = quick_sort(greater_elements)
+
+    return left_partition + equal_elements + right_partition
