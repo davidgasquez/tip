@@ -19,11 +19,11 @@ of O(n log n).
 """
 
 
-def quick_sort(array):
+def quicksort(array):
     """Sorts the input list using the quick sort algorithm.
 
     >>> unsorted_list = [4, 5, 1, 6, 3]
-    >>> quick_sort(unsorted_list)
+    >>> quicksort(unsorted_list)
     [1, 3, 4, 5, 6]
     """
 
@@ -47,7 +47,7 @@ def quick_sort(array):
             equal_elements.append(element)
 
     # Recursively sorts partitions
-    left_partition = quick_sort(lesser_elements)
-    right_partition = quick_sort(greater_elements)
+    left_partition = quicksort(lesser_elements)
+    right_partition = quicksort(greater_elements)
 
     return left_partition + equal_elements + right_partition
