@@ -41,7 +41,7 @@ def quicksort(array):
     for element in array:
         if element < pivot:
             lesser_elements.append(element)
-        if element > pivot:
+        elif element > pivot:
             greater_elements.append(element)
         else:
             equal_elements.append(element)
