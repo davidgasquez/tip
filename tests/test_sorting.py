@@ -1,5 +1,6 @@
 from tip.algorithms.sorting.mergesort import mergesort
 from tip.algorithms.sorting.quicksort import quicksort
+from tip.algorithms.sorting.insertion import insertionsort
 
 
 class TestMergesort(object):
@@ -55,4 +56,31 @@ class TestQuicksort(object):
         """Test sorting a empty list."""
         unsorted_list = []
         sorted_list = quicksort(unsorted_list)
+        assert sorted_list == sorted(unsorted_list)
+
+class TestInsertionsort(object):
+    """Test class for Insertion Sort algorithm."""
+
+    def test_insertionsort_basic(self):
+        """Test basic sorting."""
+        unsorted_list = [5, 3, 7, 8, 9, 3]
+        sorted_list = insertionsort(unsorted_list)
+        assert sorted_list == sorted(unsorted_list)
+
+    def test_insertionsort_trivial(self):
+        """Test sorting when it's only one item."""
+        unsorted_list = [1]
+        sorted_list = insertionsort(unsorted_list)
+        assert sorted_list == sorted(unsorted_list)
+
+    def test_insertionsort_with_duplicates(self):
+        """Test sorting a list with duplicates."""
+        unsorted_list = [1, 1, 1, 1]
+        sorted_list = insertionsort(unsorted_list)
+        assert sorted_list == sorted(unsorted_list)
+
+    def test_insertionsort_with_empty_list(self):
+        """Test sorting a empty list."""
+        unsorted_list = []
+        sorted_list = insertionsort(unsorted_list)
         assert sorted_list == sorted(unsorted_list)
