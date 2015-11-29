@@ -37,7 +37,7 @@ def quicksort(array):
 
     pivot = array[0]
 
-    # Classify each element(lesser, greateror equal) in the arrays
+    # Classify each element(lesser, greater or equal) in the arrays
     for element in array:
         if element < pivot:
             lesser_elements.append(element)
