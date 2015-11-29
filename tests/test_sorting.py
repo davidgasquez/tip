@@ -29,6 +29,10 @@ class TestMergesort(object):
         sorted_list = mergesort(unsorted_list)
         assert sorted_list == sorted(unsorted_list)
 
+
+class TestQuicksort(object):
+    """Test class for Quick Sort algorithm."""
+
     def test_quicksort_basic(self):
         """Test basic sorting."""
         unsorted_list = [5, 3, 7, 8, 9, 3]
