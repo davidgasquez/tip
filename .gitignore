@@ -1,6 +1,14 @@
-.DS_Store
-*.pyc
-build/
-*~
-/dist/
+# Byte-compiled / optimized / DLL files
+__pycache__/
 .cache
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.ipynb_checkpoints
+*.egg-info
+.tox
+.coverage
