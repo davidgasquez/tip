@@ -10,7 +10,7 @@ Quicksort, also known as partition-exchange sort, uses these steps:
     3 - All elements less than the pivot must be in the first partition.
     4 - All elements greater than the pivot must be in the second partition.
     5 - Use recursion to sort both partitions.
-    6 - Join first sorted partition, the pivot, and the second sorted partition.
+    6 - Join first sorted partition, the pivot, and the second partition.
 
 Quicksort has a reputation as the fastest sort. Optimized variants of quicksort
 are common features of many languages and libraries. One often contrasts

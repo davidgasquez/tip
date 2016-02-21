@@ -58,6 +58,7 @@ class TestQuicksort(object):
         sorted_list = quicksort(unsorted_list)
         assert sorted_list == sorted(unsorted_list)
 
+
 class TestInsertionsort(object):
     """Test class for Insertion Sort algorithm."""
 
