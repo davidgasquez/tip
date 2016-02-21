@@ -9,9 +9,4 @@ setup(
     author_email='davidgasquez@gmail.com',
     license='Unlicense',
     packages=find_packages(),
-    classifiers=[
-        'Development Status :: 1 - Planning',
-        'Programming Language :: Python :: 3',
-    ],
-    keywords='algorithms data-structures'
 )
