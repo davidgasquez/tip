@@ -3,6 +3,7 @@
 [![Join the chat at https://gitter.im/davidgasquez/tip](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/davidgasquez/tip?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/davidgasquez/tip.svg)](https://travis-ci.org/davidgasquez/tip)
 [![codecov.io](https://codecov.io/github/davidgasquez/tip/coverage.svg?branch=master)](https://codecov.io/github/davidgasquez/tip?branch=master)
+[![Code Health](https://landscape.io/github/davidgasquez/tip/master/landscape.svg?style=flat)](https://landscape.io/github/davidgasquez/tip/master)
 
 Here you can find some Python code I wrote to prepare traditional technical interviews. The code try to covers generic algorithms, concepts and data structures in a [Pythonic](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html) way.
 
